@@ -1,7 +1,7 @@
 "use server"
 
 // 获取环境变量
-const API_URL = process.env.API_URL
+const API_URL = process.env.NEXT_PUBLIC_API_URL
 
 // 检查是否已登录
 export async function checkLogin(): Promise<boolean> {
