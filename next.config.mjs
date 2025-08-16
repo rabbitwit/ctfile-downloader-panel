@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',  // 添加这一行
 }
 
 export default nextConfig
